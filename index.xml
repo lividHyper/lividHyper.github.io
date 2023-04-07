@@ -8,6 +8,15 @@
     <language>zh-ch</language>
     <lastBuildDate>Thu, 05 Jan 2023 22:20:17 +0800</lastBuildDate><atom:link href="https://lividhyper.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About me</title>
+      <link>https://lividhyper.github.io/about/</link>
+      <pubDate>Thu, 05 Jan 2023 22:49:51 +0800</pubDate>
+      
+      <guid>https://lividhyper.github.io/about/</guid>
+      <description>简介 这里是一个普通人的blog, 主要记录一些技术的思考以及生活的琐事; 主要的技术范围: 稳定性建设、Linux、计算机网络、Java&amp;amp;</description>
+    </item>
+    
+    <item>
       <title>First Post</title>
       <link>https://lividhyper.github.io/first-post/</link>
       <pubDate>Thu, 05 Jan 2023 22:20:17 +0800</pubDate>
