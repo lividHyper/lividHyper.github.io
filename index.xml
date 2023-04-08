@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Livid的博客</title>
+    <link>https://lividhyper.github.io/</link>
+    <description>Recent content on Livid的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-ch</language><atom:link href="https://lividhyper.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collection</title>
+      <link>https://lividhyper.github.io/collection/</link>
+      <pubDate>Sat, 08 Apr 2023 10:04:33 +0800</pubDate>
+      
+      <guid>https://lividhyper.github.io/collection/</guid>
+      <description>AGI 相关 GPT 入门 Hung-yi Lee GPT原理剖析, https://www.youtube.com/watch?v=yiY4nPOzJEg</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://lividhyper.github.io/about/</link>
+      <pubDate>Thu, 05 Jan 2023 22:49:51 +0800</pubDate>
+      
+      <guid>https://lividhyper.github.io/about/</guid>
+      <description>简介 这里是一个工程师的blog, 主要记录一些生活的琐事和技术的思考; 主要的技术范围: 稳定性建设、Linux、计算机网络、Java&amp;amp;P</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>
