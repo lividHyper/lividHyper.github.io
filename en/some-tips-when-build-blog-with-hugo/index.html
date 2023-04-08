@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Some tips when build blog with hugo | Livid&#39;s Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Translate By ChatGPT. After several attempts and giving up, I finally decided to pick up my personal blog again. On the one hand, I hope to share some of my thoughts on work and life with everyone, and on the other hand, I also want to exercise my writing ability. Work well with tools As a tool enthusiast, I always have difficulty choosing tools. Considering that the main purpose of">
+<meta name="author" content="livid">
+<link rel="canonical" href="https://lividhyper.github.io/en/some-tips-when-build-blog-with-hugo/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.3613efbd0b1772781e8f49935e973cae632a7f61471c05b17be155505ccf87b5.css" integrity="sha256-NhPvvQsXcngej0mTXpc8rmMqf2FHHAWxe&#43;FVUFzPh7U=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://lividhyper.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://lividhyper.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://lividhyper.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://lividhyper.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://lividhyper.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh-cn" href="https://lividhyper.github.io/hugo%E6%90%AD%E5%BB%BAblog%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/">
+<link rel="alternate" hreflang="en" href="https://lividhyper.github.io/en/some-tips-when-build-blog-with-hugo/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Some tips when build blog with hugo" />
+<meta property="og:description" content="Translate By ChatGPT. After several attempts and giving up, I finally decided to pick up my personal blog again. On the one hand, I hope to share some of my thoughts on work and life with everyone, and on the other hand, I also want to exercise my writing ability. Work well with tools As a tool enthusiast, I always have difficulty choosing tools. Considering that the main purpose of" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lividhyper.github.io/en/some-tips-when-build-blog-with-hugo/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-04-07T22:51:38+08:00" />
+<meta property="article:modified_time" content="2023-04-07T22:51:38+08:00" /><meta property="og:site_name" content="Livid&#39;s Blog" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Some tips when build blog with hugo"/>
+<meta name="twitter:description" content="Translate By ChatGPT. After several attempts and giving up, I finally decided to pick up my personal blog again. On the one hand, I hope to share some of my thoughts on work and life with everyone, and on the other hand, I also want to exercise my writing ability. Work well with tools As a tool enthusiast, I always have difficulty choosing tools. Considering that the main purpose of"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://lividhyper.github.io/en/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Some tips when build blog with hugo",
+      "item": "https://lividhyper.github.io/en/some-tips-when-build-blog-with-hugo/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Some tips when build blog with hugo",
+  "name": "Some tips when build blog with hugo",
+  "description": "Translate By ChatGPT. After several attempts and giving up, I finally decided to pick up my personal blog again. On the one hand, I hope to share some of my thoughts on work and life with everyone, and on the other hand, I also want to exercise my writing ability. Work well with tools As a tool enthusiast, I always have difficulty choosing tools. Considering that the main purpose of",
+  "keywords": [
+    
+  ],
+  "articleBody": " Translate By ChatGPT.\nAfter several attempts and giving up, I finally decided to pick up my personal blog again. On the one hand, I hope to share some of my thoughts on work and life with everyone, and on the other hand, I also want to exercise my writing ability.\nWork well with tools As a tool enthusiast, I always have difficulty choosing tools. Considering that the main purpose of a blog is to write something down, I still use the simplest Github Pages + Hugo to build it. The PaperMod theme recommended by my friend is also very much in line with my aesthetics. Here, I will make a brief review of the construction of the entire blog.\nOverall structure Hugo configuration Hugo itself is implemented using the Go language, and its configuration has a certain learning curve. It is recommended to copy and update an existing yml file directly. Here is my configuration file:\nbaseURL: https://lividhyper.github.io/ defaultContentLanguage: zh-cn theme: hugo-PaperMod summary: archives enableEmoji: true enableRobotsTXT: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启 hasCJKLanguage: true # 每页显示的文章数 pageinate: 10 # 浏览器显示方式 permalinks: post: \"/:title/\" # 开启标签tag taxonomies: category: categories tag: tags series: series entag: entags languages: zh-cn: title: Livid的博客 contentDir: content/zh menu: main: - identifier: archives name: 文章 url: archives/ weight: 1 - identifier: tag name: 分类 url: tags/ weight: 10 - identifier: search name: 搜索 url: search weight: 20 - identifier: collection name: 资料 url: collection/ weight: 20 - identifier: about name: 关于\u0026友链 url: about weight: 30 en: title: Livid's Blog contentDir: content/en menu: main: - identifier: archives name: Post url: archives/ weight: 1 - identifier: entag name: Tags url: entags/ weight: 10 - identifier: search name: Search url: search weight: 20 - identifier: collection name: Collection url: collection weight: 40 - identifier: about name: About url: about weight: 50 params: # 开启SEO env: production author: livid ShowReadingTime: true homeInfoParams: Title: xx Content: xx comments: true socialIcons: # optional - name: github url: \"https://\" - name: twitter url: \"img/twitter.png\" - name: RSS url: \"index.xml\" # 允许代码被拷贝 ShowCodeCopyButtons: true fuseOpts: isCaseSensitive: false shouldSort: true location: 0 distance: 1000 threshold: 1 minMatchCharLength: 0 keys: [\"title\", \"permalink\", \"summary\"] outputs: home: - HTML - RSS - JSON # is necessary searchHidden: true Automatically publish using Github Actions We can set up two repositories: one for storing articles, which can be named blog and can be set to a Private repository; the other for storing external static resources, which needs to be set to a Public repository. The secrets and configurations of Github Action are not mentioned too much here. Here is an example of my .github/workflows/deploy.yml:\nname: deploy on: push: workflow_dispatch: jobs: build: runs-on: ubuntu-latest steps: - name: Checkout uses: actions/checkout@v2 with: submodules: true fetch-depth: 0 - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: \"latest\" - name: Build Web run: hugo - name: Deploy Web uses: peaceiris/actions-gh-pages@v3 with: PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }} EXTERNAL_REPOSITORY: lividHyper/lividHyper.github.io PUBLISH_BRANCH: main PUBLISH_DIR: ./public commit_message: ${{ github.event.head_commit.message }} Image Hosting Configuration Since I use Github to host my blog, I will skip the configuration of an image hosting service and simply embed the images directly into my blog as static resources.\nComments Since my blog is not yet heavily trafficked, I will hold off on introducing a commenting system for now. I will consider implementing a more mature solution in the future.\n",
+  "wordCount" : "631",
+  "inLanguage": "en",
+  "datePublished": "2023-04-07T22:51:38+08:00",
+  "dateModified": "2023-04-07T22:51:38+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "livid"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://lividhyper.github.io/en/some-tips-when-build-blog-with-hugo/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Livid's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lividhyper.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://lividhyper.github.io/en/" accesskey="h" title="Livid&#39;s Blog (Alt + H)">Livid&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://lividhyper.github.io/" title="Zh-Cn"
+                            aria-label="Zh-Cn">Zh-Cn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://lividhyper.github.io/en/archives/" title="Post">
+                    <span>Post</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://lividhyper.github.io/en/entags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://lividhyper.github.io/en/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://lividhyper.github.io/en/collection" title="Collection">
+                    <span>Collection</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://lividhyper.github.io/en/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Some tips when build blog with hugo
+    </h1>
+    <div class="post-meta"><span title='2023-04-07 22:51:38 +0800 +0800'>April 7, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;livid&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="https://lividhyper.github.io/hugo%E6%90%AD%E5%BB%BAblog%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/">Zh-Cn</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><blockquote>
+<p>Translate By ChatGPT.</p>
+</blockquote>
+<p>After several attempts and giving up, I finally decided to pick up my personal blog again. On the one hand, I hope to share some of my thoughts on work and life with everyone, and on the other hand, I also want to exercise my writing ability.</p>
+<h2 id="work-well-with-tools">Work well with tools<a hidden class="anchor" aria-hidden="true" href="#work-well-with-tools">#</a></h2>
+<p>As a tool enthusiast, I always have difficulty choosing tools. Considering that the main purpose of a blog is to write something down, I still use the simplest Github Pages + Hugo to build it. The PaperMod theme recommended by my friend is also very much in line with my aesthetics. Here, I will make a brief review of the construction of the entire blog.</p>
+<h2 id="overall-structure">Overall structure<a hidden class="anchor" aria-hidden="true" href="#overall-structure">#</a></h2>
+<p><img loading="lazy" src="../../Blog-stru.jpg" alt="Blog structure"  />
+</p>
+<h2 id="hugo-configuration">Hugo configuration<a hidden class="anchor" aria-hidden="true" href="#hugo-configuration">#</a></h2>
+<p>Hugo itself is implemented using the Go language, and its configuration has a certain learning curve. It is recommended to copy and update an existing yml file directly. Here is my configuration file:</p>
+<pre tabindex="0"><code>baseURL: https://lividhyper.github.io/
+defaultContentLanguage: zh-cn
+theme: hugo-PaperMod
+summary: archives
+
+enableEmoji: true
+enableRobotsTXT: true
+
+# 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
+hasCJKLanguage: true
+
+# 每页显示的文章数
+pageinate: 10
+
+# 浏览器显示方式
+permalinks:
+  post: &#34;/:title/&#34;
+
+# 开启标签tag
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+  entag: entags
+
+languages:
+  zh-cn:
+    title: Livid的博客
+    contentDir: content/zh
+
+    menu:
+      main:
+        - identifier: archives
+          name: 文章
+          url: archives/
+          weight: 1
+        - identifier: tag
+          name: 分类
+          url: tags/
+          weight: 10
+        - identifier: search
+          name: 搜索
+          url: search
+          weight: 20
+        - identifier: collection
+          name: 资料
+          url: collection/
+          weight: 20
+        - identifier: about
+          name: 关于&amp;友链
+          url: about
+          weight: 30
+  en:
+    title: Livid&#39;s Blog
+    contentDir: content/en
+    menu:
+      main:
+        - identifier: archives
+          name: Post
+          url: archives/
+          weight: 1
+        - identifier: entag
+          name: Tags
+          url: entags/
+          weight: 10
+        - identifier: search
+          name: Search
+          url: search
+          weight: 20
+        - identifier: collection
+          name: Collection
+          url: collection
+          weight: 40
+        - identifier: about
+          name: About
+          url: about
+          weight: 50
+params:
+  # 开启SEO
+  env: production
+  author: livid
+  ShowReadingTime: true
+
+  homeInfoParams:
+    Title: xx
+    Content: xx
+  comments: true
+
+  socialIcons: # optional
+    - name: github
+      url: &#34;https://&#34;
+    - name: twitter
+      url: &#34;img/twitter.png&#34;
+    - name: RSS
+      url: &#34;index.xml&#34;
+
+  # 允许代码被拷贝
+  ShowCodeCopyButtons: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 1
+    minMatchCharLength: 0
+    keys: [&#34;title&#34;, &#34;permalink&#34;, &#34;summary&#34;]
+
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+searchHidden: true
+</code></pre><h2 id="automatically-publish-using-github-actions">Automatically publish using Github Actions<a hidden class="anchor" aria-hidden="true" href="#automatically-publish-using-github-actions">#</a></h2>
+<p>We can set up two repositories: one for storing articles, which can be named blog and can be set to a Private repository; the other for storing external static resources, which needs to be set to a Public repository. The secrets and configurations of Github Action are not mentioned too much here. Here is an example of my .github/workflows/deploy.yml:</p>
+<pre tabindex="0"><code>name: deploy
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: &#34;latest&#34;
+
+      - name: Build Web
+        run: hugo
+
+      - name: Deploy Web
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          EXTERNAL_REPOSITORY: lividHyper/lividHyper.github.io
+          PUBLISH_BRANCH: main
+          PUBLISH_DIR: ./public
+          commit_message: ${{ github.event.head_commit.message }}
+</code></pre><h2 id="image-hosting-configuration">Image Hosting Configuration<a hidden class="anchor" aria-hidden="true" href="#image-hosting-configuration">#</a></h2>
+<p>Since I use Github to host my blog, I will skip the configuration of an image hosting service and simply embed the images directly into my blog as static resources.</p>
+<h2 id="comments">Comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h2>
+<p>Since my blog is not yet heavily trafficked, I will hold off on introducing a commenting system for now. I will consider implementing a more mature solution in the future.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://lividhyper.github.io/en/">Livid&#39;s Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

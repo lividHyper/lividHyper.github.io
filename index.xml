@@ -5,7 +5,6 @@
     <link>https://lividhyper.github.io/</link>
     <description>Recent content on Livid的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-ch</language>
     <lastBuildDate>Fri, 07 Apr 2023 22:51:38 +0800</lastBuildDate><atom:link href="https://lividhyper.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Collection</title>
@@ -18,10 +17,10 @@
     
     <item>
       <title>Hugo搭建Blog的一些用法</title>
-      <link>https://lividhyper.github.io/2023/04/hugo%E6%90%AD%E5%BB%BAblog%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/</link>
+      <link>https://lividhyper.github.io/hugo%E6%90%AD%E5%BB%BAblog%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/</link>
       <pubDate>Fri, 07 Apr 2023 22:51:38 +0800</pubDate>
       
-      <guid>https://lividhyper.github.io/2023/04/hugo%E6%90%AD%E5%BB%BAblog%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/</guid>
+      <guid>https://lividhyper.github.io/hugo%E6%90%AD%E5%BB%BAblog%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/</guid>
       <description>经过多次的入坑弃坑，还是打算重新捡起个人 blog，一方面是希望将自己工作和生活上的一些思考分享给大家，另一方面也是考虑锻炼下写作的能力。 工欲</description>
     </item>
     
